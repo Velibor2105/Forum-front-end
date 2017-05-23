@@ -1,0 +1,2 @@
+ $("#btnForm").fancybox();
+  $("#btnReg").fancybox();

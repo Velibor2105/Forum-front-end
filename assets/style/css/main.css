@@ -1,0 +1,21 @@
+.auth {
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.pass,
+.user {
+   margin : 20px;
+}
+
+#login-btn {
+  	
+   width: 100px;
+   margin: 0 auto;
+   display : block;
+
+}
+
+
