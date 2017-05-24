@@ -32,20 +32,6 @@
 }
 /*end navigation*/
 
-/*forum*/
-.forum-container {
-	background-color: rgb(230,230,230);
-	text-align: center;
-	font-size: 20px;
-	border-radius: 7px;
-	margin-right: 500px;
-	margin-left: 500px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	height : 50px;
-}
-/*end forum*/
-
 /*accordions*/
 .a-text {
 	 margin-left: 20px;
@@ -55,6 +41,16 @@
 .moderator-text {
 	float: right;
 	font-style: italic;
+}
+.decscription-container,
+.rules-description,
+.co-moderators {
+
+	margin-top: 50px;
+}
+.visit-forum {
+	width : 200px;
+	float : right;
 }
 /*end accordions*/
 
