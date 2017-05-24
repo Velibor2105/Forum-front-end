@@ -5,11 +5,9 @@
 	margin-left: 10px;
 }
 
-.pass,
-.user {
+.input-row {
    margin : 20px;
 }
-
 #login-btn {
   	
    width: 100px;
@@ -18,4 +16,17 @@
 
 }
 
+#reg-btn {
+  	
+   width: 100px;
+   margin: 0 auto;
+   display : block;
+
+}
+.f-form {
+	-webkit-align-content: right;
+}
+.input-row > div {
+	text-align : right;
+}
 
