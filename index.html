@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/style/css/font-awesome.css">
 </head>
 	<body>
-             <!-- NAVIGATION -->
+            <!-- NAVIGATION -->
 			<nav class="navbar navbar-default">
 			  <div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
@@ -34,7 +34,7 @@
 			</nav>
 			<!--END NAVIGATION -->
 
-			 <!-- LOGIN -->
+			<!-- LOGIN fancybox-->
 			<div id="loginDiv" style="display:none">
 			    <form action="tbd" class="f-form">
 			       <div class="row input-row">
@@ -58,7 +58,7 @@
 			</div>
 			<!--END LOGIN -->
 
-				 <!-- LOGIN -->
+		    <!-- REGISTRATION fancybox-->
 			<div id="regDiv" style="display:none">
 			    <form action="tbd">
 			       <div class="row input-row">
@@ -120,11 +120,66 @@
 			       <input id="reg-btn" type="submit" class="btn btn-default" value="Register" />
 			    </form>
 			</div>
-			<!--END LOGIN -->
+			<!--END REGISTRATION -->
+
+
+			<div class="container">
+			  <h2>Forums</h2>
+			  <div class="panel-group" id="accordion">
+
+
+			    <div class="panel panel-default">
+			      <div class="panel-heading">
+			        <h4 class="panel-title">
+			          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Forum 1</a>
+			        </h4>
+			      </div>
+			      <div id="collapse1" class="panel-collapse collapse in">
+			        <div class="panel-body">
+			        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+			        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+			      </div>
+			    </div>
+
+
+			    <div class="panel panel-default">
+			      <div class="panel-heading">
+			        <h4 class="panel-title">
+			          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Forum 2</a>
+			        </h4>
+			      </div>
+			      <div id="collapse2" class="panel-collapse collapse">
+			        <div class="panel-body">
+			        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+			        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+			      </div>
+			    </div>
+
+
+			    <div class="panel panel-default">
+			      <div class="panel-heading">
+			        <h4 class="panel-title">
+			          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Forum 3</a>
+			        </h4>
+			      </div>
+			      <div id="collapse3" class="panel-collapse collapse">
+			        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+			        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+			      </div>
+			    </div>
+
+
+			  </div> 
+			</div>
+
 
 	<script type="text/javascript" src="assets/scripts/js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="assets/scripts/jquery.fancybox.js"></script>
 	<script type="text/javascript" src="assets/scripts/js/bootstrap.js"></script>
 	<script type="text/javascript" src="assets/scripts/auth.js"></script>
+	<script type="text/javascript" src="assets/scripts/accordion.js"></script>
 	</body>
 </html>
