@@ -124,7 +124,48 @@
 
 			<!-- ACCORDIONS THEME-->
 			<div class="container">
+
 				<h2>Themes from {forum name} forum</h2>
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					        <h4 class="panel-title">
+					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="a-text">Theme title</a>
+					          <span class="creator-name">
+					             <div class="name">
+					               Created by: Some Name
+					             </div>
+					             <div class="date-created">Created: 21.05.2017</div>
+					          </span>
+					        </h4>
+					    </div>
+					    <div id="collapse1" class="panel-collapse collapse">
+					        <div class="panel-body">
+					           	<div class="thema-container">
+							        <h4>Description:</h4>
+							        <p>
+							        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							        </p>	
+
+
+							        <!--COMMENTAR-->
+							        <div class="comment-container">
+							        	<div class='menu'>
+										    <div class='accordion' id='tree_accordion'>
+										        <!-- CONTENT HERE -->
+										    </div>
+										</div>
+							        </div>
+						        	<!--END COMMENTAR-->
+
+						        </div>	
+					        </div>
+					    </div>
+					</div>
+				</div> 
+
 				<div class="panel-group" id="accordion">
 					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -146,6 +187,29 @@
 					    </div>
 					</div>
 				</div> 
+
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					        <h4 class="panel-title">
+					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="a-text">Theme title</a>
+					        </h4>
+					    </div>
+					    <div id="collapse1" class="panel-collapse collapse">
+					        <div class="panel-body">
+					           	<div class="thema-container">
+							        <h4>Description:</h4>
+							        <p>
+							        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							        </p>	
+						        </div>	
+					        </div>
+					    </div>
+					</div>
+				</div> 
+
 			</div>
 			<!--END ACCORDIONS THEME-->
 
@@ -155,5 +219,7 @@
 	<script type="text/javascript" src="assets/scripts/jquery.fancybox.js"></script>
 	<script type="text/javascript" src="assets/scripts/js/bootstrap.js"></script>
 	<script type="text/javascript" src="assets/scripts/auth.js"></script>
+	<script type="text/javascript" src="assets/scripts/commentar.js"></script>
+	
 	</body>
 </html>
