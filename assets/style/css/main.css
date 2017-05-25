@@ -7,21 +7,21 @@
 }
 
 .input-row {
-   margin : 20px;
+	margin : 20px;
 }
 #login-btn {
-  	
-   width: 100px;
-   margin: 0 auto;
-   display : block;
+
+	width: 100px;
+	margin: 0 auto;
+	display : block;
 
 }
 
 #reg-btn {
-  	
-   width: 100px;
-   margin: 0 auto;
-   display : block;
+
+	width: 100px;
+	margin: 0 auto;
+	display : block;
 
 }
 .f-form {
@@ -34,8 +34,8 @@
 
 /*accordions*/
 .a-text {
-	 margin-left: 20px;
-	 margin-top: 35px;
+	margin-left: 20px;
+	margin-top: 35px;
 	font-size: 20px;
 }
 .moderator-text {
@@ -76,6 +76,25 @@
 	margin-bottom: 2px;
 }
 /*end thema*/
+
+/*coment content*/
+.comm-content {
+	
+	width: 800px;
+	height: 100px auto;
+}
+.parent-comment {
+	border: 1px solid grb(230,230,230);
+	border-radius: 4px;
+	font-size: 10px;
+	width: 800px;
+	height: 100px auto;
+}
+.p-comment {
+	width: 800px;
+	height: 100px auto;
+}
+/*end comment content*/
 
 
 /*COMMENTS*/
