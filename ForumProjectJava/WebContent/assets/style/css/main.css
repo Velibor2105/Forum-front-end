@@ -1,0 +1,85 @@
+/*navigation*/
+.auth {
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.input-row {
+   margin : 20px;
+}
+#login-btn {
+  	
+   width: 100px;
+   margin: 0 auto;
+   display : block;
+
+}
+
+#reg-btn {
+  	
+   width: 100px;
+   margin: 0 auto;
+   display : block;
+
+}
+.f-form {
+	-webkit-align-content: right;
+}
+.input-row > div {
+	text-align : right;
+}
+/*end navigation*/
+
+/*accordions*/
+.a-text {
+	 margin-left: 20px;
+	 margin-top: 35px;
+	font-size: 20px;
+}
+.moderator-text {
+	float: right;
+	font-style: italic;
+}
+.decscription-container,
+.rules-description,
+.co-moderators {
+
+	margin-top: 50px;
+}
+.visit-forum {
+	width : 200px;
+	float : right;
+}
+/*end accordions*/
+
+/*thema*/
+.thema-container {
+
+	margin-top: 10px;
+}
+.creator-name {
+
+	font-size: 14px;
+	font-style: italic;
+	float : right;
+}
+.date-created {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-style: normal;
+}
+.name {
+	margin-top: -4px;
+	margin-bottom: 2px;
+}
+/*end thema*/
+
+
+/*COMMENTS*/
+.menu .accordion-heading {  position: relative; }
+.menu .green { border-left: 10px solid green; }
+.menu .collapse.in { overflow: visible; }
+/*END COMMENTS*/

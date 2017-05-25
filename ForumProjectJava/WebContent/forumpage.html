@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Forum</title>
+    <link rel="stylesheet" type="text/css" href="assets/style/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets/style/css/font-awesome.css">
+</head>
+	<body>
+            <!-- NAVIGATION -->
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="#">Forum</a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <form class="navbar-form navbar-left">
+			        <div class="form-group">
+			          <input type="text" class="form-control" placeholder="Search">
+			        </div>
+			        <button type="submit" class="btn btn-default">Submit</button>
+			      </form>
+			      <form class="navbar-form navbar-right">
+				      <a href="#regDiv" id="btnReg" class="btn btn-default navbar-right auth">Register</a>
+				      <a href="#loginDiv" id="btnLogin" class="btn btn-default navbar-right auth">Sign in</a>
+			      </form>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+			<!--END NAVIGATION -->
+
+			<!-- LOGIN fancybox-->
+			<div id="loginDiv" style="display:none">
+			    <form action="tbd" class="f-form">
+			       <div class="row input-row">
+			           <div class="col-lg-4">
+			           		Username:
+			           </div>
+			           <div class="col-lg-8">
+				           <input type="text" />
+			           </div>
+			       </div>
+			       <div class="row input-row">
+			           <div class="col-lg-4">
+			           		Password:
+			           </div>
+			           <div class="col-lg-8">
+				           <input type="Password" />
+			           </div>
+			       </div>
+			       <input id="login-btn" type="submit" class="btn btn-default" value="Login" />
+			    </form>
+			</div>
+			<!--END LOGIN -->
+
+		    <!-- REGISTRATION fancybox-->
+			<div id="regDiv" style="display:none">
+			    <form action="tbd">
+			       <div class="row input-row">
+			           <div class="col-lg-4">
+			           		Username:
+			           </div>
+			           <div class="col-lg-8">
+				           <input type="text" />
+			           </div>
+			       </div>
+			       <div class="row input-row">
+			           <div class="col-lg-4">
+			           		Password:
+			           </div>
+			           <div class="col-lg-8">
+				           <input type="Password" />
+			           </div>
+			       </div>
+			       <div class="row input-row">
+			           <div class="col-lg-4">
+			           		Name:
+			           </div>
+			           <div class="col-lg-8">
+				           <input type="text" />
+			           </div>
+			       </div>
+			       <div class="row input-row">
+			           <div class="col-lg-4">
+			           		Surname:
+			           </div>
+			           <div class="col-lg-8">
+				           <input type="text" />
+			           </div>
+			       </div>
+			       <div class="row input-row">
+			           <div class="col-lg-4">
+			           		Role:
+			           </div>
+			           <div class="col-lg-8">
+				           <input type="text" />
+			           </div>
+			       </div>
+			       <div class="row input-row">
+			           <div class="col-lg-4">
+			           		Phone:
+			           </div>
+			           <div class="col-lg-8">
+				           <input type="text" />
+			           </div>
+			       </div>
+			        <div class="row input-row">
+			           <div class="col-lg-4">
+			           		Email:
+			           </div>
+			           <div class="col-lg-8">
+				           <input type="text" />
+			           </div>
+			       </div>
+			       <input id="reg-btn" type="submit" class="btn btn-default" value="Register" />
+			    </form>
+			</div>
+			<!--END REGISTRATION -->
+
+			<!-- ACCORDIONS THEME-->
+			<div class="container">
+
+				<h2>Themes from {forum name} forum</h2>
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					        <h4 class="panel-title">
+					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="a-text">Theme title</a>
+					          <span class="creator-name">
+					             <div class="name">
+					               Created by: Some Name
+					             </div>
+					             <div class="date-created">Created: 21.05.2017</div>
+					          </span>
+					        </h4>
+					    </div>
+					    <div id="collapse1" class="panel-collapse collapse">
+					        <div class="panel-body">
+					           	<div class="thema-container">
+							        <h4>Description:</h4>
+							        <p>
+							        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							        </p>	
+
+
+							        <!--COMMENTAR-->
+							        <div class="comment-container">
+							        	<div class='menu'>
+										    <div class='accordion' id='tree_accordion'>
+										        <!-- CONTENT HERE -->
+										    </div>
+										</div>
+							        </div>
+						        	<!--END COMMENTAR-->
+
+						        </div>	
+					        </div>
+					    </div>
+					</div>
+				</div> 
+
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					        <h4 class="panel-title">
+					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="a-text">Theme title</a>
+					        </h4>
+					    </div>
+					    <div id="collapse1" class="panel-collapse collapse">
+					        <div class="panel-body">
+					           	<div class="thema-container">
+							        <h4>Description:</h4>
+							        <p>
+							        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							        </p>	
+						        </div>	
+					        </div>
+					    </div>
+					</div>
+				</div> 
+
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					        <h4 class="panel-title">
+					          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="a-text">Theme title</a>
+					        </h4>
+					    </div>
+					    <div id="collapse1" class="panel-collapse collapse">
+					        <div class="panel-body">
+					           	<div class="thema-container">
+							        <h4>Description:</h4>
+							        <p>
+							        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							        </p>	
+						        </div>	
+					        </div>
+					    </div>
+					</div>
+				</div> 
+
+			</div>
+			<!--END ACCORDIONS THEME-->
+
+		
+			
+	<script type="text/javascript" src="assets/scripts/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/scripts/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="assets/scripts/js/bootstrap.js"></script>
+	<script type="text/javascript" src="assets/scripts/auth.js"></script>
+	<script type="text/javascript" src="assets/scripts/commentar.js"></script>
+	
+	</body>
+</html>
