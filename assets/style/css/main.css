@@ -83,16 +83,15 @@
 	width: 800px;
 	height: 100px auto;
 }
-.parent-comment {
-	border: 1px solid grb(230,230,230);
-	border-radius: 4px;
-	font-size: 10px;
-	width: 800px;
-	height: 100px auto;
-}
+
 .p-comment {
 	width: 800px;
 	height: 100px auto;
+}
+.main-comment {
+	margin-left: 2px;
+	margin-top: 14px;
+	font-size: 13px;
 }
 /*end comment content*/
 
